@@ -1,67 +1,80 @@
-# Phase 1 Project
-![image](https://github.com/NdanuM/dsc-phase-1-project/assets/133153210/cbe5992c-8da9-4190-bf2c-c3abf3159645)
+# Microsoft Movie Start-up Analysis
+![image](https://github.com/NdanuM/dsc-phase-1-project/assets/133153210/3baa0f36-e43b-4821-b324-38a1d5064744)
 
-You've made it all the way through the first phase of this course - take a minute to celebrate your awesomeness!
+Author: Ndanu Mwatu
 
-![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-phase-1-project/master/awesome.gif)
+## Overview
+This project seeks to generate business insights for Microsoft's Movie Start-up by analyzing movie data from Internet Movie Database(IMDB) and The Movie Database(TMDB).
 
-Now you will put your new skills to use with a large end-of-Phase project! This project should take 20 to 30 hours to complete.
+## Business Problem
+Microsoft sees all the big companies creating original video content and they want to get in on the fun. They have decided to create a new movie studio, but they don’t know anything about creating movies. We are charged with exploring what types of films are currently doing the best at the box office and translating these findings into actionable insights that the head of Microsoft's new movie studio can use to help decide what type of films to create.
 
-## Project Overview
-1. Hi LEo
-2. Im fine
-For this project, you will use exploratory data analysis to generate insights for a business stakeholder.
+## Data
+Data used is IMDB Basics data; IMDB Ratings data and TMDB movies data.
+IMDB Basics has data on genres.IMDB Ratings has data on movie ratings and number of votes. TMDB database has data on movie release dates, ratings and number of votes.
 
-### Business Problem
+![image](https://github.com/NdanuM/dsc-phase-1-project/assets/133153210/00e92158-f1d1-47c7-ba76-105f9d2e9839)
 
-Microsoft sees all the big companies creating original video content and they want to get in on the fun. They have decided to create a new movie studio, but they don’t know anything about creating movies. You are charged with exploring what types of films are currently doing the best at the box office. You must then translate those findings into actionable insights that the head of Microsoft's new movie studio can use to help decide what type of films to create.
+## Methods
+Data preparation includes: Dropping unnecessary columns; Merging dataframes; Checking for duplicated data and Checking for and dealing with missing values.
 
-### The Data
+Data modeling methods include: Filtering the data by certain parameters; Groupby with aggregation; Changing datatype; Creating new feature (column) to the dataframe and Creating Visualizations
 
-In the folder `zippedData` are movie datasets from:
+## Results
+**1. Most commonly produced movie genres**
 
-* [Box Office Mojo](https://www.boxofficemojo.com/)
-* [IMDB](https://www.imdb.com/)
-* [Rotten Tomatoes](https://www.rottentomatoes.com/)
-* [TheMovieDB](https://www.themoviedb.org/)
-* [The Numbers](https://www.the-numbers.com/)
+![most_commonly_produced_movie_genres](https://github.com/NdanuM/dsc-phase-1-project/assets/133153210/9530f320-4322-4d58-8e63-6d5d798a78d6)
 
-It is up to you to decide what data from this to use and how to use it. If you want to make this more challenging, you can scrape websites or make API calls to get additional data. If you are feeling overwhelmed or behind (e.g. struggled with the Phase 1 Code Challenge), we recommend you use only the following data files:
+Dramas are the most commonly produced movie genre without considering ratings.
 
-* imdb.title.basics
-* imdb.title.ratings
-* bom.movie_gross
+**2. Top 5 highest rated movie genres**
 
-## Deliverables
+![top_5_highest_rated_movie_genres](https://github.com/NdanuM/dsc-phase-1-project/assets/133153210/00595ab4-24c4-4a38-81ed-697a99991c33)
 
-There are three deliverables for this project:
+Top 5 highest rated genres of movies differ from the top 5 most commonly produced genres.
 
-* A **GitHub repository**
-* A **Jupyter Notebook**
-* A **non-technical presentation**
+Adventure, Documentary & Western is the most popular genre combination.
 
-Review the "Project Submission & Review" page in the "Milestones Instructions" topic for instructions on creating and submitting your deliverables. Refer to the rubric associated with this assignment for specifications describing high-quality deliverables.
+**3. Movie lengths**
 
-### Key Points
+![movie_length_vs_no_of_movies](https://github.com/NdanuM/dsc-phase-1-project/assets/133153210/796d58f7-39f7-4401-9770-32b7216b2060)
 
-* **Your analysis should yield three concrete business recommendations.** The ultimate purpose of exploratory analysis is not just to learn about the data, but to help an organization perform better. Explicitly relate your findings to business needs by recommending actions that you think the business (Microsoft) should take.
+90 minutes is the most common movie length.
 
-* **Communicating about your work well is extremely important.** Your ability to provide value to an organization - or to land a job there - is directly reliant on your ability to communicate with them about what you have done and why it is valuable. Create a storyline your audience (the head of Microsoft's new movie studio) can follow by walking them through the steps of your process, highlighting the most important points and skipping over the rest.
+**4. Runtimes of top 5 highest rated movie genres**
 
-* **Use plenty of visualizations.** Visualizations are invaluable for exploring your data and making your findings accessible to a non-technical audience. Spotlight visuals in your presentation, but only ones that relate directly to your recommendations. Simple visuals are usually best (e.g. bar charts and line graphs), and don't forget to format them well (e.g. labels, titles).
+![runtime_of_top_5_highest_rated_movie_genres](https://github.com/NdanuM/dsc-phase-1-project/assets/133153210/4cdc9c5d-c557-4bc4-938b-9dbf9072cd7f)
 
-## Getting Started
+77 to 134 minutes is the range of length for the top 5 highest rated movie genres
 
-Please start by reviewing this assignment, the rubric at the bottom of it, and the "Project Submission & Review" page. If you have any questions, please ask your instructor ASAP.
+**5. Month of release**
 
-Next, we recommend you check out [the Phase 1 Project Templates and Examples repo](https://github.com/learn-co-curriculum/dsc-project-template) and use the MVP template for your project.
+![month_of_release_vs_ratings](https://github.com/NdanuM/dsc-phase-1-project/assets/133153210/68cde688-5463-486f-9b78-7b2f567159b1)
 
-Alternatively, you can fork [the Phase 1 Project Repository](https://github.com/learn-co-curriculum/dsc-phase-1-project), clone it locally, and work in the `student.ipynb` file. Make sure to also add and commit a PDF of your presentation to your repository with a file name of `presentation.pdf`.
+November and December  are the best months to release a movie
 
-## Project Submission and Review
+## Conclusions
+An analysis of movies that are currently doing the best at the box office reveals which movies Microsoft new studio should produce:
+1. **Genres:** Pursue production of movies of these genres:  Adventure,Documentary,Western;  Documentary,Drama,Thriller; Mystery,News,Thriller;  Comedy,History,Musical ;  Animation,Crime,Mystery.
+2. **Runtimes:** Produce movies with these approximate  runtimes:  77 minutes (Adventure,Documentary,Western);  98 minutes (Documentary,Drama,Thriller); 88 minutes ( Mystery,News,Thriller); 134 minutes (Comedy,History,Musical); 116 minutes ( Animation,Crime,Mystery)
+3. **Month of release:** Release majority of the movies produced in November and December. Avoid releasing films in January and May as they tend to have lower ratings.
 
-Review the "Project Submission & Review" page in the "Milestones Instructions" topic to learn how to submit your project and how it will be reviewed. Your project must pass review for you to progress to the next Phase.
+##  Next Steps
+Further analysis is recommended in the following areas for additional insights:
+* **Gross earnings:** Analysis of box office gross earnings in addition to popularity (ratings), to further refine the kinds of movies to pursue.
+* **Production budget:** An examination of production budgets per recommended movie genre, to give the client a feel of the production capital needed.
+* **Streaming services:** An investigation into popularity and earnings of films produced for streaming services such as Netflix, as opposed to box office release only, to guide the client on best approaches.
 
-## Summary
+### For More Information
+See the full analysis in the Jupyter Notebook or review the presentation
 
-This project will give you a valuable opportunity to develop your data science skills using real-world data. The end-of-phase projects are a critical part of the program because they give you a chance to bring together all the skills you've learned, apply them to realistic projects for a business stakeholder, practice communication skills, and get feedback to help you improve. You've got this!
+For additional information contact Ndanu Mwatu at Mwatu.Ndanu@student.moringaschool.com
+
+### Repository Structure
+* data
+* images
+* README.md
+* Microsoft_Movie_Start-up_Presentation_N.Mwatu.pdf
+* Microsoft_Movie_Start-up_Analysis.ipynb
+
+
