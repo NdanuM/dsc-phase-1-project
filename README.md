@@ -1,4 +1,5 @@
 # Phase 1 Project
+![image](https://github.com/NdanuM/dsc-phase-1-project/assets/133153210/cbe5992c-8da9-4190-bf2c-c3abf3159645)
 
 You've made it all the way through the first phase of this course - take a minute to celebrate your awesomeness!
 
@@ -7,7 +8,8 @@ You've made it all the way through the first phase of this course - take a minut
 Now you will put your new skills to use with a large end-of-Phase project! This project should take 20 to 30 hours to complete.
 
 ## Project Overview
-
+1. Hi LEo
+2. Im fine
 For this project, you will use exploratory data analysis to generate insights for a business stakeholder.
 
 ### Business Problem
