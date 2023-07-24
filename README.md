@@ -21,13 +21,13 @@ Data preparation includes: Dropping unnecessary columns; Merging dataframes; Che
 Data modeling methods include: Filtering the data by certain parameters; Groupby with aggregation; Changing datatype; Creating new feature (column) to the dataframe and Creating Visualizations
 
 ## Results
-**1. Most commonly produced movie genres**
+**1a. Most commonly produced movie genres**
 
 ![most_commonly_produced_movie_genres](https://github.com/NdanuM/dsc-phase-1-project/assets/133153210/9530f320-4322-4d58-8e63-6d5d798a78d6)
 
 Dramas are the most commonly produced movie genre without considering ratings.
 
-**2. Top 5 highest rated movie genres**
+**1b. Top 5 highest rated movie genres**
 
 ![top_5_highest_rated_movie_genres](https://github.com/NdanuM/dsc-phase-1-project/assets/133153210/00595ab4-24c4-4a38-81ed-697a99991c33)
 
@@ -35,26 +35,26 @@ Top 5 highest rated genres of movies differ from the top 5 most commonly produce
 
 Adventure, Documentary & Western is the most popular genre combination.
 
-**3. Movie lengths**
+**2a. Movie lengths**
 
 ![movie_length_vs_no_of_movies](https://github.com/NdanuM/dsc-phase-1-project/assets/133153210/796d58f7-39f7-4401-9770-32b7216b2060)
 
 90 minutes is the most common movie length.
 
-**4. Runtimes of top 5 highest rated movie genres**
+**2b. Runtimes of top 5 highest rated movie genres**
 
 ![runtime_of_top_5_highest_rated_movie_genres](https://github.com/NdanuM/dsc-phase-1-project/assets/133153210/4cdc9c5d-c557-4bc4-938b-9dbf9072cd7f)
 
 77 to 134 minutes is the range of length for the top 5 highest rated movie genres
 
-**5. Month of release**
+**3. Month of release**
 
 ![month_of_release_vs_ratings](https://github.com/NdanuM/dsc-phase-1-project/assets/133153210/68cde688-5463-486f-9b78-7b2f567159b1)
 
 November and December  are the best months to release a movie
 
 ## Conclusions
-An analysis of movies that are currently doing the best at the box office reveals which movies Microsoft new studio should produce:
+An analysis of movies that are currently doing the best at the box office reveals which movies Microsoft's new studio should produce:
 1. **Genres:** Pursue production of movies of these genres:  Adventure,Documentary,Western;  Documentary,Drama,Thriller; Mystery,News,Thriller;  Comedy,History,Musical ;  Animation,Crime,Mystery.
 2. **Runtimes:** Produce movies with these approximate  runtimes:  77 minutes (Adventure,Documentary,Western);  98 minutes (Documentary,Drama,Thriller); 88 minutes ( Mystery,News,Thriller); 134 minutes (Comedy,History,Musical); 116 minutes ( Animation,Crime,Mystery)
 3. **Month of release:** Release majority of the movies produced in November and December. Avoid releasing films in January and May as they tend to have lower ratings.
@@ -76,5 +76,8 @@ For additional information contact Ndanu Mwatu at Mwatu.Ndanu@student.moringasch
 * README.md
 * Microsoft_Movie_Start-up_Presentation_N.Mwatu.pdf
 * Microsoft_Movie_Start-up_Analysis.ipynb
+
+### References
+Images *(that are not visualizations generated from data)* are downloaded from www.pixabay.com
 
 
