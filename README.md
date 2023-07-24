@@ -1,4 +1,5 @@
 # Phase 1 Project
+![image](https://github.com/NdanuM/dsc-phase-1-project/assets/133153210/cbe5992c-8da9-4190-bf2c-c3abf3159645)
 
 You've made it all the way through the first phase of this course - take a minute to celebrate your awesomeness!
 
