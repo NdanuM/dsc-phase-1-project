@@ -61,9 +61,9 @@ An analysis of movies that are currently doing the best at the box office reveal
 
 ##  Next Steps
 Further analysis is recommended in the following areas for additional insights:
-* Gross earnings: Analysis of box office gross earnings in addition to popularity (ratings), to further refine the kinds of movies to pursue.
-* Production budget: An examination of production budgets per recommended movie genre, to give the client a feel of the production capital needed.
-* Streaming services: An investigation into popularity and earnings of films produced for streaming services such as Netflix, as opposed to box office release only, to guide the client on best approaches.
+* **Gross earnings:** Analysis of box office gross earnings in addition to popularity (ratings), to further refine the kinds of movies to pursue.
+* **Production budget:** An examination of production budgets per recommended movie genre, to give the client a feel of the production capital needed.
+* **Streaming services:** An investigation into popularity and earnings of films produced for streaming services such as Netflix, as opposed to box office release only, to guide the client on best approaches.
 
 ### For More Information
 See the full analysis in the Jupyter Notebook or review the presentation
