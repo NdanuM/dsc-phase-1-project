@@ -8,7 +8,8 @@ You've made it all the way through the first phase of this course - take a minut
 Now you will put your new skills to use with a large end-of-Phase project! This project should take 20 to 30 hours to complete.
 
 ## Project Overview
-
+1. Hi LEo
+2. Im fine
 For this project, you will use exploratory data analysis to generate insights for a business stakeholder.
 
 ### Business Problem
