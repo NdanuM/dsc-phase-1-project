@@ -1,5 +1,21 @@
-# Phase 1 Project
-![image](https://github.com/NdanuM/dsc-phase-1-project/assets/133153210/cbe5992c-8da9-4190-bf2c-c3abf3159645)
+# Microsoft Movie Start-up Analysis
+![image](https://github.com/NdanuM/dsc-phase-1-project/assets/133153210/3baa0f36-e43b-4821-b324-38a1d5064744)
+Author: Ndanu Mwatu
+
+## Overview
+This project seeks to generate business insights for Microsoft's Movie Start-up by analyzing movie data from Internet Movie Database(IMDB) and The Movie Database(TMDB).
+
+## Business Problem
+Microsoft sees all the big companies creating original video content and they want to get in on the fun. They have decided to create a new movie studio, but they don’t know anything about creating movies. We are charged with exploring what types of films are currently doing the best at the box office and translating these findings into actionable insights that the head of Microsoft's new movie studio can use to help decide what type of films to create.
+
+## Data
+Data used is IMDB Basics data; IMDB Ratings data and TMDB movies data.
+IMDB Basics has data on genres.IMDB Ratings has data on movie ratings and number of votes. TMDB database has data on movie release dates, ratings and number of votes.
+
+## Methods
+Data preparation includes: Dropping unnecessary columns; Merging dataframes; Checking for duplicated data and Checking for and dealing with missing values
+Data modeling methods include: Filtering the data by certain parameters; Groupby with aggregation; Changing datatype; Creating new feature (column) to the dataframe and Creating Visualizations
+
 
 You've made it all the way through the first phase of this course - take a minute to celebrate your awesomeness!
 
