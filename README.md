@@ -1,5 +1,6 @@
 # Microsoft Movie Start-up Analysis
 ![image](https://github.com/NdanuM/dsc-phase-1-project/assets/133153210/3baa0f36-e43b-4821-b324-38a1d5064744)
+
 Author: Ndanu Mwatu
 
 ## Overview
@@ -13,7 +14,8 @@ Data used is IMDB Basics data; IMDB Ratings data and TMDB movies data.
 IMDB Basics has data on genres.IMDB Ratings has data on movie ratings and number of votes. TMDB database has data on movie release dates, ratings and number of votes.
 
 ## Methods
-Data preparation includes: Dropping unnecessary columns; Merging dataframes; Checking for duplicated data and Checking for and dealing with missing values
+Data preparation includes: Dropping unnecessary columns; Merging dataframes; Checking for duplicated data and Checking for and dealing with missing values.
+
 Data modeling methods include: Filtering the data by certain parameters; Groupby with aggregation; Changing datatype; Creating new feature (column) to the dataframe and Creating Visualizations
 
 
