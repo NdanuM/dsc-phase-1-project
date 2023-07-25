@@ -23,7 +23,7 @@ Data modeling methods include: Filtering the data by certain parameters; Groupby
 ## Results
 **1a. Most commonly produced movie genres**
 
-![most_commonly_produced_movie_genres](https://github.com/NdanuM/dsc-phase-1-project/assets/133153210/9530f320-4322-4d58-8e63-6d5d798a78d6)
+![most_commonly_produced_movie_genres](https://github.com/NdanuM/dsc-phase-1-project/assets/133153210/b28ea96c-5b6c-45c1-ad13-f3150815fdc1)
 
 Dramas are the most commonly produced movie genre without considering ratings.
 
